@@ -16,10 +16,10 @@
 			}
 			.navbar > a {
 				background-color: #35383d;
-				font-size: 15px;
-				width: 200px;
-				height: 65px;
-				margin-left: 10px;
+				font-size: 1vw;
+				width: 15vw;
+				height: 5vw;
+				margin-left: 1vw;
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -31,16 +31,42 @@
 				width: 100%;
 			}
 			.flag {
-				width: 80px;
-				height: 50px;
+				width: 5vw;
+				height: 3vw;
 				float: right;
-				margin-right: 10px;
+				margin-right: 1vw;
+			}
+			.imgGallery {
+				padding-top: 2vw;
+			}
+			.imgGallery > img {
+				width: 22vw;
+				height: 15vw;
+				padding-left: 2vw;
+			}
+			.bgimagecontainer {
+				background-size: 100% 100%;
+			}
+			.divider {
+				background-color: #FFFFFF;
+				height: 10px;
+			}
+			.partnerGallery {
+				padding-top: 2vw;
+			}
+			.partnerGallery > img {
+				max-width: 11vw;
+				max-height: 50px;
+				width: auto;
+				height: auto;
+				padding-left: 2vw;
+				vertical-align: middle;
 			}
 		</style>
 	</head>
 	<body style="margin: 0;">
 		<div class="navbar">
-			<img src="Images/Logo.png" style="float: left; width:100px; margin-left:10px; margin-right:10px; margin-bottom:10px; margin-top:10px;">
+			<img src="Images/Logo.png" style="float: left; width:5vw; margin-left:1vw; margin-right:1vw; margin-bottom:0.5vw; margin-top:0.5vw;">
 			<a>ABOUT</a>
 			<a>GALLERY</a>
 			<a>PRODUCTIONS</a>
@@ -54,8 +80,8 @@
 				<img class="flag" src="Images/UKFlag.png">
 			</div> 
 		</div>
-		<div style="background-image:url('Images/City1.jpg'); background-size:100%;">
-			<div style="height:250px"></div>
+		<div class="bgimagecontainer" style="background-image:url('Images/City1.jpg');">
+			<div style="height:200px"></div>
 			<div style="background-color:rgba(0, 0, 0, 0.5); text-align:center;">
 				<p style="line-height:150px;">
 					<span style="font-size:150px; color:#ff5304;">
@@ -65,15 +91,15 @@
 						ANFILM
 					</span>
 				</p>
-				<p style="margin-top:-60px">
-					<span style="font-size:31px;">
+				<p style="margin-top:-70px;">
+					<span style="font-size:30px;">
 						CREATIVITY IS LIMITLESS
 					</span>
 				</p>
 			</div>
-			<div style="height:250px"></div>
-			<div style="background-color:#FFFFFF; height:10px;"></div>
-			<div style="background-color:rgba(0, 0, 0, 0.5); text-align:center; font-family:Arial, Helvetica, sans-serif; height:6.4vw;">
+			<div style="height:200px"></div>
+			<div class="divider"></div>
+			<div style="background-color:rgba(0, 0, 0, 0.5); text-align:center; font-family:Arial, Helvetica, sans-serif;">
 				<p style="font-size:35px; margin:0;">
 					Who We Are
 				</p>
@@ -81,14 +107,42 @@
 					Hello my name is Meistor Biktor, but you already know who I am. I have been all over the world; Ukraine, Canada, Russia, you name it. You will never find another Biktor like me. #Biktor4Life
 				</div>
 			</div>
-			<div style="background-color:#FFFFFF; height:10px"></div>
+			<div class="divider"></div>
 		</div>
-		<div style="background-image:url('Images/City1.jpg'); background-size:100%;">
-			<div style="padding-top:2vw;">
-				<img src="Images/Gallery1.jpg" style="width:22.5vw; height:15vw; padding-left:2vw;">
-				<img src="Images/Gallery2.jpg" style="width:22.5vw; height:15vw; padding-left:2vw;">
-				<img src="Images/Gallery3.jpg" style="width:22.5vw; height:15vw; padding-left:2vw;">
-				<img src="Images/Gallery4.jpg" style="width:22.5vw; height:15vw; padding-left:2vw;">
+		<div class="bgimagecontainer" style="background-image:url('Images/City2.jpg');">
+			<div style="background-color:rgba(255, 255, 255, 0.5);">
+				<div class="imgGallery">
+					<img src="Images/Gallery1.jpg">
+					<img src="Images/Gallery2.jpg">
+					<img src="Images/Gallery3.jpg">
+					<img src="Images/Gallery4.jpg">
+				</div>
+				<div class="imgGallery">
+					<img src="Images/Gallery5.jpg">
+					<img src="Images/Gallery6.jpg">
+					<img src="Images/Gallery7.jpg">
+					<img src="Images/Gallery8.jpg">
+				</div>
+				<div class="divider" style="margin-top:2vw;"></div>
+				<div style="background-color:rgba(0, 0, 0, 0.5); text-align:center; font-size:35px; font-family:Arial, Helvetica, sans-serif;">
+					OUR PARTNERS
+					<div class="partnerGallery">
+						<img src="Images/Partner1.png">
+						<img src="Images/Partner2.png">
+						<img src="Images/Partner3.png">
+						<img src="Images/Partner4.png">
+						<img src="Images/Partner5.png">
+						<img src="Images/Partner6.png">
+					</div>
+					<div class="partnerGallery">
+						<img src="Images/Partner7.png">
+						<img src="Images/Partner8.png">
+						<img src="Images/Partner9.png">
+						<img src="Images/Partner10.png">
+						<img src="Images/Partner11.png">
+						<img src="Images/Partner12.png">
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
